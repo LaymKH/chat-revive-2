@@ -346,7 +346,7 @@ if(command == 'topic'){
     "thout unfit even to graft",
     "there was an ol' farmer that lived on a ro-",
     `a song that i personally recommend, ${song}`,
-    
+    "nuking the server in 3... 2... 1...",
   ];
   const responses = DeadchatResponses[Math.floor(Math.random() * DeadchatResponses.length)];
 
@@ -356,8 +356,11 @@ if(command == 'topic'){
 }
 
 
-
-
+ if(command == 'ratio'){
+      const sentMessage2 = await message.channel.send('ratio bozo');
+      await sentMessage2.react('👍');
+      await sentMessage2.react('👎');
+    };
 
 
 });
