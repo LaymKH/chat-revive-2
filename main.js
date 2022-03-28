@@ -36,7 +36,17 @@ client.on('messageCreate', async message =>{
       });
 
 
-
+      const DeadchatSongs = [
+        "https://www.youtube.com/watch?v=sgdPlDG1-8k",
+        "https://www.youtube.com/watch?v=nBteO-bU78Y",
+        "https://www.youtube.com/watch?v=PvzBWFGEz8M",
+        "https://www.youtube.com/watch?v=lGFEqEFJ410",
+        "https://www.youtube.com/watch?v=Wx08V5jPEwg",
+        "https://www.youtube.com/watch?v=wrX_t7h8vy8",
+        "https://www.youtube.com/watch?v=UnIhRpIT7nc",
+      ];
+    
+      const song = DeadchatSongs[Math.floor(Math.random() * DeadchatSongs.length)];
 
       const DeadchatResponses = [
         "ur mom",
@@ -89,6 +99,9 @@ client.on('messageCreate', async message =>{
         "I enjoy consuming the tears of minority orphans",
         "```! maidens```",
         "luna said i couldnt add one that said 'kys' :(",
+        "thout unfit even to graft",
+        "there was an ol' farmer that lived on a ro-",
+        `a song that i personally recommend, ${song}`,
 
       ];
       const responses = DeadchatResponses[Math.floor(Math.random() * DeadchatResponses.length)];
@@ -175,7 +188,17 @@ if(command == 'forcevote'){
   });
 
 
+  const DeadchatSongs = [
+    "https://www.youtube.com/watch?v=sgdPlDG1-8k",
+    "https://www.youtube.com/watch?v=nBteO-bU78Y",
+    "https://www.youtube.com/watch?v=PvzBWFGEz8M",
+    "https://www.youtube.com/watch?v=lGFEqEFJ410",
+    "https://www.youtube.com/watch?v=Wx08V5jPEwg",
+    "https://www.youtube.com/watch?v=wrX_t7h8vy8",
+    "https://www.youtube.com/watch?v=UnIhRpIT7nc",
+  ];
 
+  const song = DeadchatSongs[Math.floor(Math.random() * DeadchatSongs.length)];
 
   const DeadchatResponses = [
     "ur mom",
@@ -228,6 +251,9 @@ if(command == 'forcevote'){
     "I enjoy consuming the tears of minority orphans",
     "```! maidens```",
     "luna said i couldnt add one that said 'kys' :(",
+    "thout unfit even to graft",
+    "there was an ol' farmer that lived on a ro-",
+    `a song that i personally recommend, ${song}`,
 
   ];
   const responses = DeadchatResponses[Math.floor(Math.random() * DeadchatResponses.length)];
