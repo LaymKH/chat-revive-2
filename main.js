@@ -20,7 +20,7 @@ client.on('messageCreate', async message =>{
   } else {
     if(command == "deadchat"){
       if(message.member.roles.cache.get('957654036176322590')) return message.reply('You have been blacklisted!');
-      const sentMessage = await message.channel.send("**Should we revive chat?**");
+      const sentMessage = await message.channel.send("**?tahc eht eviver ew dluohs**");
       await sentMessage.react('✅'); 
        
       const filter = (reaction, user) => {
@@ -49,61 +49,7 @@ client.on('messageCreate', async message =>{
       const song = DeadchatSongs[Math.floor(Math.random() * DeadchatSongs.length)];
 
       const DeadchatResponses = [
-        "ur mom",
-    "AMOGUS",
-    "Message from kakashi: minou is cute",
-    "beep beep letus",
-    "Smile, Sweet, Sister, Sadistic, Surprise, Service ***SETH***",
-    "one piece is peak",
-    "mekakucity actors is mid",
-    "bleach is mid",
-    "RUMBLING, RUMBLING, ITS THE RUMBLING, RUMBLING",
-    "ratio",
-    "JS > py",
-    "persona peak ngl",
-    "DO A FLIP",
-    "Sorry Mommy? Sorry Mommy? Sorry Mommy?",
-    "Give up on your dreams and die",
-    "MID ANIME MID ANIME MID ANIME, MID MID MID MID, MID MID,MID MID MID, ONE PIECE BETTER, NARUTO BETTER",
-    "This ping was sponsored by ***RAID SHADOW LEGENDS***",
-    "peachy can go die",
-    "if youre seeing this, im out of topics",
-    "What if the real One Piece was the friends we made along the way",
-    "bop bee booooo",
-    "your MOTHER",
-    "dbz mid",
-    "seven deadly frames mid",
-    "L + no runes + maidenless + scarlet rot + blood loss + you leveled dex",
-    "ゴ STANDO POWER ゴ",
-    "i LOVE hitting women",
-    "umai, umai, umai, umai, umai... UMAI",
-    "ゴ Ohoho,  so you're approaching me? ゴ",
-    "mentos is MID",
-    "ara ara~~",
-    "ally is hot",
-    "Guys don't look up Pokemon number 591, worst mistake of my life",
-    "do you know the choppa six dolla?",
-    "dreamSMP is MID",
-    "i can see all of your reactions",
-    "is he smoking a piece of shit??",
-    "'Thats too racist' - Yukan while i was writing this",
-    "yukan mid",
-    "jellymid",
-    "caffeine tastes amazing",
-    "hi, thanks for checking in im **still a piece of garbage**",
-    "***seth noises***",
-    "merry christmas!",
-    "should we abuse the trials or not?",
-    "pinaple on pizza...",
-    "L + Woman",
-    "I enjoy consuming the tears of minority orphans",
-    "```! maidens```",
-    "luna said i couldnt add one that said 'kys' :(",
-    "thout unfit even to graft",
-    "there was an ol' farmer that lived on a ro-",
-    `a song that i personally recommend, ${song}`,
-    "nuking the server in 3... 2... 1...",
-    "*nya nya!!~~ uwuwu owowo*",
+   "ｆ̸̡̭͉̜̟̤͍̗͚̖̥̪͙̠̭̦̱̪͍̰͇̥̩̪̙̾̑͊̈̔̑̉̄͆͗̂̑̌̕͝ͅͅｄ̵̛͉̳̹͑̎̈́͋͋̓͊͗͌̆̋̄͋̈́͐̕͘͝ｆ̶̡̛̥̳͈̮̞͓̺͈̝͈͈̮̜̺̣̪̈́̂̅̆͌͒̔͗͑͆͗͋̌̅̑̓͗̓̓̉̍̎͛̀̃̈́̕͝͝͠ͅｄ̷̣̗̉̐͆̿̅̅͌̿̂͘̕ｈ̸̢̧̢̧̢̙̫͉̲͓̬̰͉͓͖̞͉͙̹̥͕̞̥̯̞͉̓̈͆̋̑̇̏͌̉͆̇̏̌̀̌̑̄̐̾̎̕̚͘͝ͅͅͅｆ̴̧̯̜̫̹̦̤̥̖̯̹̗̺̜̺͕̯̫̔́͛͂̐̆̓̍͐̍̑̔̄̆͝͠ͅｓ̶̨̻̫͙͕̹̟̤͇͖̯̹̩̗̰̤̪̤͙̭̤̺͓̳̔̿̾͑́̏̈́́̊͊͛̄̍͌̅͆̾̀̏͒̆́̋̓̈́̚͘̚͝͝ｔ̸̘͈̈̾̍͆̽͐̓̿͒̋̇̌͘ｒ̵̧̒̾͌̂̾́͆̈̈́̌̊́̈̾̾̆͋͑͋͒͘̕͝͝ｔ̴̢̪̲̺͙̺͓͔͍͓̠͇̳̥̘̘͎̘̱̮̗̫̱̳̯̲̞̪̥̻͎̃͂̑̍̈̅̇̓̀̑͜͝͝ｙ̷̨͔̱̠͚͙͈͐͋̆͗̆̀̉̏͂̑͌͌̈́͐̂̍̒̂̉́̕͝͠ｒ̷̮̹̀̑̌̈́͗̋̎̈̾̂̆̀̍̐̔̒̀͌̄̓̃̅͂̌͘̚ｓ̸̡̨̧̛̘̭̟̗̥̝̤̫̮̝͎̘̹̳̗̣̭̮̯͔̬̯͓̗̤̑̑̑́̒̈́̋̔́̉̆̈́̏̾̑̍̃͊͒̑̊͌͘̚̕̚͜͠͝ͅ",
 
       ];
       const responses = DeadchatResponses[Math.floor(Math.random() * DeadchatResponses.length)];
