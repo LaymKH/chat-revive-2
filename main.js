@@ -279,9 +279,10 @@ if(command == 'forcevote'){
   
 
 };
-const prefix = 'dc!';
+
 
 if(command == 'topic'){
+  const prefix = 'dc!';
   const args = message.content.slice(prefix.length).trim().split(/ +/);
   if(message.member.roles.cache.get('957654036176322590')) return message.reply('You have been blacklisted!');
 
@@ -353,6 +354,7 @@ if(command == 'topic'){
         "Arashi ga sugita ato ni, Kataru ni mo ochite iku, Memai wo furihodoite, Ichi ni san de odoridasu, Shi go roku de mo odoridasu, Itsu made futari de iru no ka na, Oishiku dekitara itadakimasu, Shiranai mama de mo ii no ka na, Honto no kimochi wa himitsu da yo",
         "everyone, ping peachy",
         "amogus twerk",
+        "the word 'hot topic' also triggers this command",
 
   ];
   const responses = DeadchatResponses[Math.floor(Math.random() * DeadchatResponses.length)];
