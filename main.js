@@ -282,6 +282,7 @@ if(command == 'forcevote'){
 
 
 if(command == 'topic'){
+  const args = message.content.slice(prefix.length).trim().split(/ +/);
   if(message.member.roles.cache.get('957654036176322590')) return message.reply('You have been blacklisted!');
 
   const DeadchatSongs = [
