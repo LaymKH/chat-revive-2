@@ -279,7 +279,7 @@ if(command == 'forcevote'){
   
 
 };
-
+const prefix = 'dc!';
 
 if(command == 'topic'){
   const args = message.content.slice(prefix.length).trim().split(/ +/);
