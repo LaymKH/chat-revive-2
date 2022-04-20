@@ -177,7 +177,7 @@ if(command == 'feedback'){
 
 
 if(command == 'forcevote'){
-  let ForcevotecommandAdmin = message.member.roles.cache.get('817169073720262687');
+  let ForcevotecommandAdmin = message.member.roles.cache.get('845565648360439809');
   if (!ForcevotecommandAdmin) return message.reply('you do not have access to this command!');
 
     const sentMessage = await message.channel.send("**revive the chat?**");
